@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import ImageViewer from './index'
 
-describe('ExampleComponent', () => {
+describe('ImageViewer', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ImageViewer).toBeTruthy()
   })
 })

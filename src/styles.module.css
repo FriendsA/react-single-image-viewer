@@ -1,9 +1,82 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+:local(.imageWrapper *:focus) {
+  outline: none;
+}
+
+:local(.imageWrapper div){
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+:local(.imageWrapper img){
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select:none;
+}
+
+:local(.imageWrapper a){
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select:none;
+}
+
+.imageWrapper {
+  position  : fixed;
+  height    : 100%;
+  width     : 100%;
+  top       : 0;
+  left      : 0;
+  background: rgba(14, 12, 12, 0.7);
+  z-index   : 1001;
+}
+
+.imageBox {
+  position       : relative;
+  height         : 100%;
+  width          : 100%;
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+.showImg {
+  transition : transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s;
+  cursor     : zoom-out;
+  user-select: none;
+}
+
+.closeIcon {
+  position        : fixed;
+  top             : 50px;
+  right           : 50px;
+  background-color: #fff;
+  font-size       : 28px;
+}
+
+.funcBox {
+  display          : flex;
+  justify-content  : space-around;
+  -webkit-box-align: center;
+  -ms-flex-align   : center;
+  align-items      : center;
+  position         : fixed;
+  bottom           : 50px;
+  left             : 50%;
+  margin-left      : -100px;
+  padding          : 12px;
+  border-radius    : 6px;
+  background       : rgba(255, 255, 255, 0.8);
+
+
+}
+
+.funcIcon {
+  font-size: 24px;
+  cursor   : pointer;
+  margin   : 0 6px;
 }

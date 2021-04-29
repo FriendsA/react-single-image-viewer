@@ -1,6 +1,6 @@
 {
-  "short_name": "react-image-view",
-  "name": "react-image-view",
+  "short_name": "react-single-image-viewer",
+  "name": "react-single-image-viewer",
   "icons": [
     {
       "src": "favicon.ico",
