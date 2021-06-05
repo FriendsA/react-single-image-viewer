@@ -20,10 +20,19 @@ import 'react-single-image-viewer/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <ImageView />
+    return <ImageView src="xxxxx" height="100" width="200" callback="xxxx"/>
   }
 }
 ```
+
+## Params
+
+|   name   |          description          |
+| :------: | :---------------------------: |
+|   src    |           img path            |
+|  height  |          img height           |
+|  width   |           img width           |
+| callback | when img load error show path |
 
 ## Notice
  Because of React hooks to run tests, you need to download react,react-dom yourself,or add them to devDependencies
