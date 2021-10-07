@@ -35,7 +35,7 @@ class Example extends Component {
 | callback | when img load error show path |
 
 ## Example
-[在线例子](https://github.com/FriendsA/react-single-image-viewer.git)
+[在线例子](https://codesandbox.io/s/react-single-image-view-qlkq4)
 
 ## Notice
  Because of React hooks，if you want to run test, you need to download react,react-dom yourself,or add them to devDependencies
