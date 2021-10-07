@@ -34,8 +34,11 @@ class Example extends Component {
 |  width   |           img width           |
 | callback | when img load error show path |
 
+## Example
+[在线例子](https://github.com/FriendsA/react-single-image-viewer.git)
+
 ## Notice
- Because of React hooks to run tests, you need to download react,react-dom yourself,or add them to devDependencies
+ Because of React hooks，if you want to run test, you need to download react,react-dom yourself,or add them to devDependencies
 ## License
 
 MIT © [FriendsA](https://github.com/FriendsA)
